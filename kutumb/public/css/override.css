@@ -1,0 +1,245 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.navbar-light {
+    background-color: #FFD8B8 !important
+}
+
+.navbar-toggler {
+    border: none !important
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.rounded-border {
+    border-radius: 4px !important;
+}
+
+.rounded-right-0 {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.rounded-left-0 {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.btn-primary {
+    background-color: #FF7F15 !important;
+    border-color: #FF7F15 !important
+}
+
+.btn-register {
+    background-color: #fff;
+    border-radius: 4px;
+    border: solid 1px #FFD8B8;
+}
+
+.navbar {
+    border-bottom: solid 1px #C1C1C1;
+}
+
+.divider-shadow {
+    box-shadow: inset 0px 7px 3px -3px rgba(30, 30, 30, 0.10);
+    border-top: solid 1px #ccc;
+    height: 14px;
+}
+
+.heading-home {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.footer-home {
+    background-color: #474747;
+}
+
+    .footer-home h5 {
+        color: #ccc;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .footer-home a,
+    li {
+        color: #ccc;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+        .footer-home a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+.copyright-home,
+.copyright-home a {
+    color: #ccc;
+    font-size: 12px;
+}
+
+.rope-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #FF7F15;
+    color: #fff;
+    font-size: 24px;
+    line-height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divider-graphic-tree {
+    height: 100%;
+    width: 3px;
+    background-color: #ccc;
+    margin: auto
+}
+
+.graphic-div p {
+    font-size: 19px;
+}
+
+.section-title h2 {
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase
+}
+
+    .section-title h2:before {
+        position: absolute;
+        content: "";
+        height: 2px;
+        width: 80px;
+        left: 50%;
+        top: 45px;
+        text-align: center;
+        z-index: -1;
+        background: #C1C1C1;
+        margin-left: -40px;
+    }
+
+    .section-title h2:after {
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 30px;
+        left: 50%;
+        top: 42px;
+        text-align: center;
+        z-index: -1;
+        background: #C1C1C1;
+        margin-left: -15px;
+    }
+
+.txt-search-home:focus {
+    outline: none;
+    border-color: #FF7F15 !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+a.gotop-btn {
+    position: fixed;
+    bottom: 14px;
+    right: 14px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    color: #000;
+    z-index: 99999;
+    display: none;
+    border-radius: 4px;
+}
+
+.scrolled-header {
+    position: fixed;
+    z-index: 101;
+    top: 0px;
+    width: 100%;
+    background: #fff !important;
+    -webkit-transition: all, easeInOut, .3s;
+    transition: all, easeInOut, .3s;
+}
+
+    .scrolled-header img.logo {
+        height: 26px;
+    }
+
+    .scrolled-header .nav-link {
+        font-size: 12px !important;
+    }
+
+.navbar-toggler {
+    padding: 0px;
+}
+
+    .navbar-toggler:focus {
+        outline: 0px;
+    }
+
+@media (max-width: 320px) {
+    .txt-search-home {
+        width: 230px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    img.logo {
+        height: 40px;
+    }
+
+    .btn-register {
+        background-color: inherit !important;
+        border: none !important;
+    }
+
+    .family-tree-home {
+        display: none;
+    }
+
+    .heading-medium {
+        font-size: 20px;
+        font-weight: 600
+    }
+
+    .txt-search-home {
+        width: 260px;
+    }
+
+    .rope-icon-holder {
+        display: none;
+    }
+
+    .section-title h2 {
+        font-size: 20px;
+    }
+
+    .collapse.show {
+        border-top: solid 1px #aba0a0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .txt-search-home {
+        width: 400px;
+    }
+}
